@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgb(14, 147, 52);
+}
+.logo {
+  font-size: 50px;
+  color: #f3fa28;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-container input {
+  padding: 5px;
+  font-size: 16px;
+}
+.search-container button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #00ffff;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-content h1 {
+  font-size: 60px;
+  margin: 0;
+}
+.buttons {
+  margin-top: 20px;
+}
+.buttons a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+}
+.buttons .login {
+  background-color: red;
+}
+.buttons .signup {
+  background-color: green;
+}
+footer {
+  width: 100%;
+  background-color: red;
+  padding: 10px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
